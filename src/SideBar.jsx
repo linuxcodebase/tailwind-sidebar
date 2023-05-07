@@ -15,7 +15,7 @@ const SideBar = () => {
     )
 };
 const SideBarIcon = ({ icon }) => (
-    <div>
+    <div className='sidebar-icon'>
         {icon}
     </div>
 )
