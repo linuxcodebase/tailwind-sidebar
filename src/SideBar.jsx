@@ -1,5 +1,5 @@
 import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
-import { FaLaptop, FaAtom, FaWind } from 'react-icons/fa';
+import { FaLaptop, FaAtom, FaReact } from 'react-icons/fa';
 const SideBar = () => {
     return (
         <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
@@ -8,8 +8,7 @@ const SideBar = () => {
             <SideBarIcon icon={<BsFillLightningFill size="20" />} text='Lightning bolt' />
             <SideBarIcon icon={<FaLaptop size="20" />} text='Customize your device' />
             <SideBarIcon icon={<BsGearFill size="22" />} text='Settings' />
-            <SideBarIcon icon={<FaWind size="22" />} text='Built with Tailwind!' />
-            <SideBarIcon icon={<FaAtom size="22" />} text='Built with React!' />
+            <SideBarIcon icon={<FaReact size="22" />} text='Built with React!' />
         </div>
     )
 };
